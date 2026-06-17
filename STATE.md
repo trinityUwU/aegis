@@ -31,6 +31,19 @@ Chris fournit vision et orchestration, ne tranche pas la technique.
   suffit. ClamAV éventuel en process séparé post-MVP.
 - **IA locale** : écartée pour l'instant (trop lourde, peu pertinente à ce stade).
 
+## Prochaine session — exécution
+
+Plan d'implémentation complet validé : `~/.claude/plans/le-but-de-l-app-abundant-truffle.md`.
+Objectif : mise en place concrète. Stack figée — eBPF `aya`, signatures `yara-x`,
+fanotify pour blocage fichiers/exec, BPF-LSM (fallback SIGKILL userspace), tokio,
+Tauri v2. **Pré-vol obligatoire** : diagnostic kernel (CONFIG_BPF_LSM, lsm=bpf,
+BTF, fanotify) + toolchain (nightly, bpf-linker, bun). Si `bpf` absent des LSM
+actifs → Chris doit modifier GRUB + reboot. Cible session : Lots 0→1 complets +
+Lot 2 (yara-x on-demand) + amorce UI flux live.
+
+Invariants imposés : temps réel exhaustif · budget CPU strict (filtrage in-kernel,
+zéro polling) · zéro GPU/VRAM (pas de ML, détection règles+corrélation).
+
 ## Garde-fous perf (desktop)
 
 - fanotify ciblé exécution + zones chaudes, pas tout le filesystem.
