@@ -5,8 +5,14 @@
 ## Statut global
 
 **Phase : conception / documentation.** Aucun code applicatif. Le dépôt contient
-la vision, l'architecture, la roadmap et la structure de docs. Prochaine étape
-exécutable : scaffold du workspace Cargo et du projet UI (Phase 0, non démarré).
+la vision, l'architecture, la roadmap et les specs fondamentales (IPC, catalogue
+de détection, modèle de policy). Prochaine étape exécutable : scaffold du
+workspace Cargo et du projet UI (Phase 0, non démarré).
+
+Specs figées dans `docs/` : contrat IPC (`ipc-contract.md`), catalogue de
+détection MITRE (`detection-catalog.md`), modèle de policy/réponse
+(`policy-model.md`). Toutes les décisions techniques sont déléguées à l'agent —
+Chris fournit vision et orchestration, ne tranche pas la technique.
 
 ## Décisions figées (2026-06-17)
 

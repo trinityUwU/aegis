@@ -16,7 +16,10 @@ aegis/
 ├── .echoforge.yml       # métadonnées projet EchoForge
 ├── .gitignore           # exclusions git
 ├── .env.example         # variables d'environnement (vide de secrets)
-├── docs/                # documentation détaillée (vide)
+├── docs/
+│   ├── ipc-contract.md      # contrat IPC : événements, verdicts, commandes (aegis-core)
+│   ├── detection-catalog.md # ce qu'on traque par tactique MITRE + signal + moteur
+│   └── policy-model.md      # modes detection/prevention, réponse graduée, faux positifs, déploiement
 ├── rules/               # règles YARA + comportementales (vide)
 ├── scripts/             # start/stop/restart (à créer)
 └── logs/                # logs runtime (reset à chaque restart)
