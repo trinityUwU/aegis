@@ -46,5 +46,5 @@ exécutable : scaffold du workspace Cargo et du projet UI (Phase 0, non démarr�
 
 ## Contexte
 
-- Nom de travail : **Aegis** (à confirmer).
-- Repo local : `/mnt/projects/aegis`. Repo GitHub public à créer après confirmation.
+- Nom : **Aegis** (validé).
+- Repo local : `/mnt/projects/aegis`. Repo GitHub public : https://github.com/trinityUwU/aegis (branche `master`).

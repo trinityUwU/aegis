@@ -10,7 +10,7 @@ réponse. Chaque phase a un livrable validé avant d'enchaîner.
 - [x] Documentation racine (README, ARCHITECTURE, STATE, TODO, ARBORESCENCE)
 - [x] Licence MIT
 - [x] Dépôt local + git
-- [ ] Repo GitHub public (à confirmer avant push)
+- [x] Repo GitHub public — https://github.com/trinityUwU/aegis
 - [ ] Scaffold workspace Cargo (`crates/`) + projet UI (`ui/`)
 - [ ] Scripts `start.sh` / `stop.sh` / `restart.sh` avec gestion PID + reset logs
 
