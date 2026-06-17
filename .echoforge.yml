@@ -1,0 +1,14 @@
+name: aegis
+description: Antivirus desktop Linux temps réel, 100% local et souverain (EDR hybride YARA + eBPF).
+status: design
+type: desktop-security
+stack:
+  daemon: rust
+  probes: rust (aya/eBPF, fanotify)
+  detection: rust (yara-rust)
+  ui: react + typescript + tailwind + tauri
+  ipc: unix-socket + websocket
+ports:
+  websocket: local-only (pas d'exposition réseau)
+license: MIT
+notes: Aucun code applicatif implémenté. Phase conception/documentation.

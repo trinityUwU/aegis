@@ -1,0 +1,28 @@
+# Rust
+/target/
+**/target/
+Cargo.lock
+
+# UI / Node
+node_modules/
+ui/dist/
+ui/.vite/
+*.local
+
+# Tauri
+ui/src-tauri/target/
+
+# Logs runtime
+logs/*
+!logs/.gitkeep
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / éditeur
+.DS_Store
+*.swp
+.idea/
+.vscode/
