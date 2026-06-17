@@ -6,6 +6,7 @@ Corpus de conception et de planification. Ordre de lecture conseillé.
 - [`product-vision.md`](./product-vision.md) — mission, positionnement, principes, scope in/out, horizon 3 ans.
 - [`feature-matrix.md`](./feature-matrix.md) — inventaire exhaustif des capacités × version cible.
 - [`roadmap-versions.md`](./roadmap-versions.md) — v0.1 → v3.0, thèmes, contenu, critères de sortie.
+- [`competitive-edge.md`](./competitive-edge.md) — les features qui battent les concurrents (anti-evasion, rootkits eBPF/io_uring, decloak, drift, deception) + tableau comparatif.
 
 ## Architecture & specs
 - [`../ARCHITECTURE.md`](../ARCHITECTURE.md) — découpage par domaine, frontières, sécurité.

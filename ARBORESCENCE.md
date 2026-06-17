@@ -22,6 +22,7 @@ aegis/
 │   ├── product-vision.md       # mission, positionnement, scope, horizon 3 ans
 │   ├── feature-matrix.md       # inventaire exhaustif des capacités × version
 │   ├── roadmap-versions.md     # v0.1 → v3.0, thèmes, critères de sortie
+│   ├── competitive-edge.md     # features qui battent les concurrents (anti-evasion, decloak, drift, deception)
 │   ├── modules.md              # architecture complète des crates (au-delà du MVP)
 │   ├── ipc-contract.md         # contrat IPC : événements, verdicts, commandes (aegis-core)
 │   ├── detection-catalog.md    # ce qu'on traque par tactique MITRE + signal + moteur

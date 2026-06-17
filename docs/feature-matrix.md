@@ -148,6 +148,21 @@ du MVP ; tout n'est pas livré d'un coup, mais tout est pensé dès maintenant.
 | Packaging AUR / .deb / .rpm / Flatpak / AppImage | v1.0 |
 | Canaux nightly / beta / stable | v1.0 |
 
+## Q. Anti-évasion & rootkits nouvelle génération (l'avantage concurrentiel)
+Détail et justification : [`competitive-edge.md`](./competitive-edge.md).
+| Capacité | Ver. |
+|---|---|
+| Deception / honeypots (fausses clés SSH, honey tokens, leurres) | v1.0 |
+| Decloak cross-view des process cachés (`/proc` vs bruteforce PID vs eBPF) | v1.0 |
+| Decloak cross-view des fichiers cachés (`getdents`) | v1.x |
+| Détection des rootkits eBPF (audit programmes chargés + hooks suspects) | v1.x |
+| Baseline des programmes eBPF légitimes | v1.x |
+| Drift detection (binaires, users, SSH keys, cron/systemd, modules, taint) | v1.x |
+| Intégrité kernel & anti-masquerading LKM (taint, kallsyms, modules) | v2.0 |
+| Monitoring io_uring (bypass syscall) | v2.0 |
+| Auto-protection anti-subversion des sondes Aegis | v1.0 |
+| Decloak eBPF par lecture mémoire kernel (`prog_idr`) | v2.0 |
+
 ## Explicitement hors scope (cf. product-vision)
 VPN · gestionnaire de mots de passe · contrôle parental · webcam guard · NIDS
 périmétrique · SIEM/XDR cloud · scanner de vulnérabilités de paquets.
