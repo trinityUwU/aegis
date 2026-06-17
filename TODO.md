@@ -1,4 +1,13 @@
 # TODO — Aegis
+*Dernière mise à jour : 2026-06-17*
+
+## Conception (session 2026-06-17 — terminée)
+- [x] Vision, cibles, stack, architecture, specs fondamentales (IPC, détection, policy)
+- [x] Conception produit complète : product-vision, feature-matrix exhaustive, roadmap-versions (v0.1→v3.0), modules (11 crates)
+- [x] Opérations : threat-intel, ui-spec, qa-and-perf, distribution-and-release, security-and-governance + SECURITY.md
+- [x] Avantage concurrentiel : competitive-edge (anti-evasion, rootkits eBPF/io_uring, decloak, drift, deception)
+- [x] Plan d'exécution alpha v0.1 validé (`~/.claude/plans/le-but-de-l-app-abundant-truffle.md`)
+- [ ] Étendre le plan d'exécution aux versions ≥ v0.5 (au moment venu)
 
 ## Roadmap MVP
 

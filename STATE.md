@@ -1,4 +1,5 @@
 # STATE — Aegis
+*Dernière mise à jour : 2026-06-17*
 
 > Résumé vivant cross-session. Garder < 300 lignes.
 
@@ -18,9 +19,13 @@ workspace Cargo et du projet UI (Phase 0, non démarré).
   `modules.md` (11 crates cibles).
 - Opérations : `threat-intel.md`, `ui-spec.md`, `qa-and-perf.md`,
   `distribution-and-release.md`, `security-and-governance.md`. + `SECURITY.md`.
+- Avantage concurrentiel : `competitive-edge.md` — 8 features qui battent les
+  concurrents (anti-evasion cross-view, rootkits eBPF, io_uring, drift, deception)
+  face au champ de bataille 2026 (VoidLink, RingReaper). Reflété en catégorie Q de
+  la feature-matrix.
 
 Toutes les décisions techniques sont déléguées à l'agent — Chris fournit vision et
-orchestration, ne tranche pas la technique.
+orchestration, ne tranche pas la technique (délégation actée et durable).
 
 ## Décisions figées (2026-06-17)
 
