@@ -9,10 +9,18 @@ la vision, l'architecture, la roadmap et les specs fondamentales (IPC, catalogue
 de détection, modèle de policy). Prochaine étape exécutable : scaffold du
 workspace Cargo et du projet UI (Phase 0, non démarré).
 
-Specs figées dans `docs/` : contrat IPC (`ipc-contract.md`), catalogue de
-détection MITRE (`detection-catalog.md`), modèle de policy/réponse
-(`policy-model.md`). Toutes les décisions techniques sont déléguées à l'agent —
-Chris fournit vision et orchestration, ne tranche pas la technique.
+**Conception produit complète** (pas seulement MVP), corpus dans `docs/` (index
+`docs/README.md`) :
+- Specs techniques : `ipc-contract.md`, `detection-catalog.md`, `policy-model.md`.
+- Produit : `product-vision.md` (mission, scope in/out, horizon 3 ans),
+  `feature-matrix.md` (inventaire exhaustif × version), `roadmap-versions.md`
+  (v0.1 alpha → v1.0 stable → v1.x profondeur → v2.0 chasseur → v3.0 fleet),
+  `modules.md` (11 crates cibles).
+- Opérations : `threat-intel.md`, `ui-spec.md`, `qa-and-perf.md`,
+  `distribution-and-release.md`, `security-and-governance.md`. + `SECURITY.md`.
+
+Toutes les décisions techniques sont déléguées à l'agent — Chris fournit vision et
+orchestration, ne tranche pas la technique.
 
 ## Décisions figées (2026-06-17)
 
